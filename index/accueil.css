@@ -1,0 +1,172 @@
+
+/* ===============================
+STYLE GLOBAL LABGENIUS
+Utilisé par toutes les pages
+================================ */
+
+
+/* ---------- Style général ---------- */
+
+body{
+
+font-family: Arial;
+
+margin:0;
+
+background-color:#f4f6f8;
+
+}
+
+
+
+/* ---------- Header ---------- */
+
+header{
+
+background:#1f2a44;
+
+color:white;
+
+padding:20px;
+
+text-align:center;
+
+}
+
+
+
+/* ---------- Menu navigation ---------- */
+
+nav a{
+
+color:white;
+
+margin:15px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+
+
+/* Effet au passage souris */
+
+nav a:hover{
+
+color:#00ffd5;
+
+}
+
+
+
+/* ---------- Dashboard ---------- */
+
+.dashboard{
+
+padding:30px;
+
+}
+
+
+
+/* ---------- Cartes statistiques ---------- */
+
+.cards{
+
+display:flex;
+
+gap:20px;
+
+}
+
+
+
+/* Carte */
+
+.card{
+
+background:white;
+
+padding:20px;
+
+border-radius:10px;
+
+box-shadow:0px 0px 10px gray;
+
+width:250px;
+
+text-align:center;
+
+}
+
+
+
+/* ---------- Liste ADN ---------- */
+
+ul{
+
+background:white;
+
+padding:20px;
+
+border-radius:10px;
+
+box-shadow:0px 0px 10px gray;
+
+width:300px;
+
+}
+
+
+
+/* ---------- Boutons ---------- */
+
+button{
+
+margin-top:20px;
+
+padding:10px 20px;
+
+border:none;
+
+background:#1f2a44;
+
+color:white;
+
+cursor:pointer;
+
+border-radius:5px;
+
+}
+
+
+
+/* Effet souris */
+
+button:hover{
+
+background:#00ffd5;
+
+color:black;
+
+}
+
+
+
+/* ---------- Footer ---------- */
+
+footer{
+
+margin-top:50px;
+
+background:#1f2a44;
+
+color:white;
+
+text-align:center;
+
+padding:10px;
+
+}
